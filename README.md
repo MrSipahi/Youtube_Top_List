@@ -1,7 +1,7 @@
 # What is it ?
 
   
-Bu program veritabanında bulunan youtube kanallarının günlük görüntülenme, beğenme, beğenmeme ve yorum verilerini analiz ederek günün en çok etkileşim alan 5 kanalı görselleştirerek instagram sayfasında paylaşır.
+This program analyzes the daily views, likes, dislikes and comments data of YouTube channels in the database and visualizes the 5 channels that receive the most interaction of the day and shares them on the Instagram page.
 
 
 ![enter image description here](https://github.com/MrSipahi/Youtube_Top_List/blob/main/photo/post.PNG?raw=true)
@@ -9,13 +9,12 @@ Bu program veritabanında bulunan youtube kanallarının günlük görüntülenm
 
 # How does it work
 
-Bu programın çalışması için veritabanında 'gunluk' adında bir tablo olması gerekir. Program 'gunluk' adlı tablodan youtube kanallarının günlük istatistik verilerini elde eder.
+For this program to work, there must be a table named 'gunluk' in the database. The program obtains daily statistics data of YouTube channels from the table named 'gunluk'.
 
  ![enter image description here](https://github.com/MrSipahi/Youtube_Top_List/blob/main/photo/gunluk_table.PNG?raw=true)
 
 
-Elde edilen verileri toplam değerlerine bakarak Youtube kanallarını bir sıralamaya sokar.
-Sıralama görüntülenme, beğenme, beğenmeme ve yorum verilerine göre ayrı ayrı yapılır. Her biri ayrı ayrı görselleştirilir ve Instagram sayfasında albüm olarak paylaşılır.
+It sorts the YouTube channels by looking at the total values of the obtained data. The ranking is done separately according to the data of views, likes, dislikes and comments. Each one is individually visualized and shared as an album on the Instagram page.
 
 
 
